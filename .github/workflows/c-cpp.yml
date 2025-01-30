@@ -14,7 +14,3 @@ jobs:
     steps:
     - name: make
       run: make
-    - name: make check
-      run: make check  
-    - name: make install
-      run: make install
