@@ -16,5 +16,8 @@ jobs:
       - name: isntall dependencies
         run: sudo apt-get update && sudo apt-get install -y make gcc
 
-      - name: Makefile
+      - name: run make
         run: make
+
+      - name: rum make install
+        run: make install
